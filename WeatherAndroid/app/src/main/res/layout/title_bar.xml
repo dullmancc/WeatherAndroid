@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/title_barlogo"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="3dp"
+        android:scaleType="fitEnd"
+        android:src="@drawable/c999" />
+    <TextView
+        android:id="@+id/title_barLctext"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:textAlignment="center"
+        android:text="武汉市">
+    </TextView>
+    <TextView
+        android:id="@+id/title_barWttext"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:textAlignment="center"
+        android:text="27℃">
+    </TextView>
+</LinearLayout>
